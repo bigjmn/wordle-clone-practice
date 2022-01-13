@@ -1,0 +1,31 @@
+
+*{
+  box-sizing: border-box;
+}
+
+/* front of card - the picture */
+.letterbox .otherside {
+  transform: rotateY(90deg);
+  transition: all ease-in 0.4s;
+}
+.flipped .otherside {
+  transform: rotateY(0deg);
+  transition-delay: 0.4s;
+}
+
+/* back of card - cover */
+.letterbox .boxside {
+  transition: all ease-in 0.4s;
+  transition-delay: 0.4s;
+  position: absolute;
+
+}
+.flipped .boxside {
+  transform: rotateY(90deg);
+  transition-delay: 0s;
+}
+*{
+  font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+
+
+}
